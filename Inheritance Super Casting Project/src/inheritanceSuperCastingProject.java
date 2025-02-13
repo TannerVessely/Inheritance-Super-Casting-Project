@@ -7,12 +7,4 @@ public class inheritanceSuperCastingProject
 				// TODO Auto-generated method stub
 
 			}
-	
-
-public class StreatRacing extends Driving
-		
-		{
-			
-		}+-
-		
 	}
