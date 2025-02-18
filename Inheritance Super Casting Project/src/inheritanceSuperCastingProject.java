@@ -1,20 +1,19 @@
-// Abstract class driving
-abstract class driving {
-    // Instance variables
+class driving {
+  
     String vehicleType;
     int maxSpeed;
 
 
-    public driving(String vehicleType, int maxSpeed) {
-        this.vehicleType = vehicleType;
-        this.maxSpeed = maxSpeed;
+    public driving(String v, int m) {
+        vehicleType = v;
+        maxSpeed = m;
     }
 
 
-    public void startEngine() {
+    public void startCar() {
         System.out.println("The engine is starting...");
     }
-  public abstract void drive();
+  public  void drive();
 
   public void displayInfo() {
         System.out.println("Vehicle Type: " + vehicleType);
